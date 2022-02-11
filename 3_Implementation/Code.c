@@ -55,11 +55,11 @@ int main(){
 				while(cont == 'y'){
 				system("clear");
 				printf("\n\tWelcome %s",user.Mobile);
-				printf("\nPress 1 for balance inquiry");
-				printf("\nPress 2 for adding Money");
-				printf("\nPress 3 for cash withdraw");
-				printf("\nPress 4 for online transfer");
-				printf("\nPress 5 for changing password\n\n");
+				printf("\nPress 1 for Balance inquiry");
+				printf("\nPress 2 for Adding Money");
+				printf("\nPress 3 for Cash withdraw");
+				printf("\nPress 4 for Online transfer");
+				printf("\nPress 5 for Changing password\n\n");
 				scanf("%d",&choice);
 				switch(choice){
 					case 1:
@@ -141,7 +141,7 @@ int main(){
 					
 					default:
 					break;
-				}//switch ends here
+				}
 				printf("\n\nDo you want to continue?[y/n]:\t");
 				scanf("%s",&cont);
 				}
