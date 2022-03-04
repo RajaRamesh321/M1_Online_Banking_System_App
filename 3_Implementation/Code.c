@@ -33,7 +33,7 @@ int main(){
 		printf("Enter your new password:\t");
 		scanf("%s",user.Password);
 		user.Balance=0;
-		strcpy(filename,user.Mobile);
+		stpcpy(filename,user.Mobile);
 		fp=fopen(strcat(filename,".dat"),"w");
 		fwrite(&user,sizeof(user),1,fp);
 		if(fwrite != 0){
